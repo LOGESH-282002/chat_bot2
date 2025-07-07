@@ -5,7 +5,7 @@ const fileInput = document.getElementById('file-input');
 const filePreview = document.getElementById('file-preview');
 const modeToggle = document.getElementById('mode-toggle');
 const newChatBtn = document.getElementById('new-chat-btn');
-const BOT_NAME = 'LOGESH';
+const BOT_NAME = 'loki';
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyAFqKTZgOinSBTjK8xyeFWxjEerecwGYZw`;
 const userData = { file: { data: null, mime_type: null, name: null } };
 
