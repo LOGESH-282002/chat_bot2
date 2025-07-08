@@ -8,7 +8,7 @@ const newChatBtn = document.getElementById('new-chat-btn');
 
 const BOT_NAME = "Zen"; 
 const BOT_GREETING = "Hi there! I'm Zen, your personal assistant. How can I help you today?";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyAFqKTZgOinSBTjK8xyeFWxjEerecwGYZw`; 
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBBgu-pzkqLIhFbr5wFwYM6AwQp6x8VCzU`; 
 const userData = { file: { data: null, mime_type: null, name: null } };
 
 function initializeChat() {
